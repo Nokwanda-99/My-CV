@@ -252,6 +252,32 @@ padding: 1rem 0;
     background: greenyellow;
 }
 
+.experience .box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 3rem;
+}
+.experience .box {
+  background: #222;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #eee;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.experience .box h3 {
+  font-size: 2.2rem;
+  color: greenyellow;
+  margin-bottom: 1rem;
+}
+
+.experience .box p {
+  font-size: 1.6rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
 .portfolio .box-container {
 
 font-size:  3.5rem;
